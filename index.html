@@ -21,8 +21,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin></script>
     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Nunito:wght@700;900&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-  
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -80,16 +80,20 @@
             <div id="ovStats" class="hidden flex gap-4 flex-wrap justify-center">
                 <div
                     class="bg-white/5 border border-white/10 rounded-2xl p-2.5 text-center text-[clamp(.85rem,2.2vw,1rem)] text-gray-500 px-5 font-nunito">
-                    <b class="block text-[1.5em] text-white mb-0.5" id="statSliced">0</b>Sliced</div>
+                    <b class="block text-[1.5em] text-white mb-0.5" id="statSliced">0</b>Sliced
+                </div>
                 <div
                     class="bg-white/5 border border-white/10 rounded-2xl p-2.5 text-center text-[clamp(.85rem,2.2vw,1rem)] text-gray-500 px-5 font-nunito">
-                    <b class="block text-[1.5em] text-white mb-0.5" id="statMissed">0</b>Missed</div>
+                    <b class="block text-[1.5em] text-white mb-0.5" id="statMissed">0</b>Missed
+                </div>
                 <div
                     class="bg-white/5 border border-white/10 rounded-2xl p-2.5 text-center text-[clamp(.85rem,2.2vw,1rem)] text-gray-500 px-5 font-nunito">
-                    <b class="block text-[1.5em] text-white mb-0.5" id="statBest">0</b>Best Combo</div>
+                    <b class="block text-[1.5em] text-white mb-0.5" id="statBest">0</b>Best Combo
+                </div>
                 <div
                     class="bg-white/5 border border-white/10 rounded-2xl p-2.5 text-center text-[clamp(.85rem,2.2vw,1rem)] text-gray-500 px-5 font-nunito">
-                    <b class="block text-[1.5em] text-gold mb-0.5" id="statHigh">0</b>Best Score</div>
+                    <b class="block text-[1.5em] text-gold mb-0.5" id="statHigh">0</b>Best Score
+                </div>
             </div>
             <button
                 class="btn-3d bg-gradient-to-br from-gold to-orange-500 text-orange-950 font-bangers tracking-[2px] text-[clamp(1.1rem,3vw,1.6rem)] px-9 py-3 rounded-full border-0 cursor-pointer"
@@ -125,13 +129,17 @@
             </div>
         </div>
         <!-- MOBILE ROTATE MESSAGE -->
-        <div id="rotateMsg" class="hidden fixed top-4 left-1/2 -translate-x-1/2 z-[100] bg-black/80 backdrop-blur-md border border-white/10 px-6 py-3 rounded-full text-white font-nunito text-sm sm:text-base pointer-events-none shadow-2xl transition-all duration-700 opacity-0 -translate-y-4">
+        <div id="rotateMsg"
+            class="hidden fixed top-4 left-1/2 -translate-x-1/2 z-[100] bg-black/80 backdrop-blur-md border border-white/10 px-6 py-3 rounded-full text-white font-nunito text-sm sm:text-base pointer-events-none shadow-2xl transition-all duration-700 opacity-0 -translate-y-4">
             Rotate your phone for a better experience
         </div>
 
         <!-- COUNTDOWN OVERLAY -->
-        <div id="countdownOverlay" class="hidden absolute inset-0 z-[50] bg-black/40 backdrop-blur-sm flex items-center justify-center pointer-events-none transition-opacity duration-300">
-            <div id="countdownText" class="font-bangers text-[clamp(6rem,20vw,12rem)] text-gold drop-shadow-[0_0_20px_rgba(249,168,38,0.5)]">3</div>
+        <div id="countdownOverlay"
+            class="hidden absolute inset-0 z-[50] bg-black/40 backdrop-blur-sm flex items-center justify-center pointer-events-none transition-opacity duration-300">
+            <div id="countdownText"
+                class="font-bangers text-[clamp(6rem,20vw,12rem)] text-gold drop-shadow-[0_0_20px_rgba(249,168,38,0.5)]">
+                3</div>
         </div>
     </div>
 
